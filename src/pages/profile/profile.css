@@ -1,0 +1,99 @@
+.movieCardFavourite {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  width: 200px;
+}
+
+.posterImageFavourite {
+  width: 100%;
+}
+
+.movieTitleFavourite {
+  position: absolute;
+  display: none;
+  bottom: 30px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 75%;
+  text-align: center;
+  padding: 5px 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.posterWrapper:hover .movieTitleFavourite {
+  display: block;
+}
+
+.removeButton {
+  display: block;
+  margin: 5px auto;
+  padding: 6px 9px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  background-color: #0da2dd;
+  color: #0c0b0b;
+  cursor: pointer;
+  transition: background-color 0.7s ease;
+}
+
+.removeButton:hover {
+  background-color: #be0da7;
+}
+.profile-align-description {
+  display: flex;
+}
+
+.profile-align-location {
+  display: flex;
+}
+
+
+.friends-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px; /* Adjust this value for desired spacing between usernames */
+}
+
+.friend-username {
+  white-space: nowrap;
+  text-decoration: underline;
+  top: auto;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.spinner {
+  margin: 100px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.spinner::before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  margin-top: -15px;
+  margin-left: -15px;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  border-top-color: #333;
+  animation: spinner 0.6s linear infinite;
+}
+
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}

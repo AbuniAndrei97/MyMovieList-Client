@@ -1,0 +1,105 @@
+.movies-grid-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.movie-card-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  max-height: 675px;
+}
+
+.movie-card-list img {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.movie-card-list p {
+  font-size: 14px;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.movie-title-list {
+  font-weight: bold;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.options-list {
+  display: grid;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.options-list button {
+  background-color: #07cf22;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  margin-right: 10px;
+  margin: 5px;
+  width: 105px;
+}
+
+.options-list button:last-child {
+  margin-right: 0;
+}
+
+.options-list button:hover,
+.options-list button:focus {
+  background-color: #8a2be2;
+  border-color: #999;
+}
+
+.options-list button:active {
+  background-color: #7b1fa2;
+  border-color: #690;
+}
+
+.options-list button.selected {
+  background-color: #8a2be2;
+  color: #fff;
+}
+
+.options-list p {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.averagerating {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.ratingbutton {
+  background-color: rgb(192, 142, 50) !important;
+  font-size: 19px !important;
+  padding: 3px 9px !important;
+}
+
+.ratingbutton:hover {
+  background-color: #be0da7 !important;
+}
+
+.movie-card-list {
+  background-color: rgb(69, 52, 221);
+}

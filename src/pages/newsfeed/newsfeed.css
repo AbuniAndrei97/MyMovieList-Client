@@ -1,0 +1,98 @@
+.search-container-newsfeed {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.search-input-newsfeed {
+  padding: 8px 12px;
+  border: none;
+  width: 300px;
+  font-size: 16px;
+}
+
+.search-dropdown-newsfeed {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.search-item-newsfeed {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.search-item-newsfeed:hover {
+  background-color: #f5f5f5;
+}
+
+.newsfeed-container {
+  max-height: 720px;
+  width: 75%;
+  overflow-y: auto;
+  padding: 5px;
+  margin: 5px auto;
+  background-color: #275da3;
+  text-align: center;
+}
+
+.newsfeed-page {
+  ::-webkit-scrollbar {
+    width: 17px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #c2bfbf;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(51, 151, 51);
+    border-radius: 10px;
+  }
+}
+
+.username-hyper {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.movie-hyper {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.posterImageReviewsNewsfeed {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.posterImageStatusNewsfeed {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.posterImageFavouriteNewsfeed {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.newsfeed-container div {
+  display: flex;
+  align-items: flex-start;  /* you may adjust this based on your needs, it could be center, flex-start, flex-end, etc. */
+  margin-bottom: 24px; /* this adds some space between each newsfeed item */
+  padding-left: 50px;
+  padding-top: 5px;
+}
+
+.newsfeed-container div img {
+  margin-right: 20px; /* this adds some space between the image and the text */
+}

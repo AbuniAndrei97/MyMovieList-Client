@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+
+
+.login input[type="submit"] {
+  background: rgb(98, 21, 199);
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+  background: #17c;
+}
+
+/* Buttons' focus effect */
+.login input[type="submit"]:focus {
+  border-color: #05a;
+}
+
+.login button.alreadygotacccolour {
+  background: linear-gradient(45deg, #4b0082, #8a2be2);
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: block;
+  width: 40%;
+  padding: 3px;
+  margin-top: 12px;
+  font-family: inherit;
+  font-size: 0.95em;
+  text-align: center;
+}
+
+.login button.alreadygotacccolour:hover {
+  background: linear-gradient(45deg, #8a2be2, #4b0082);
+}
+
+.login button.alreadygotacccolour:focus {
+  border-color: #05a;
+}
+
+.error-message.show-error {
+  background-color: rgb(201, 63, 63);
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  display: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: red;
+}
+
+.error-message.show-error {
+  display: block;
+  animation: fadeIn 0.5s ease-in-out;
+}

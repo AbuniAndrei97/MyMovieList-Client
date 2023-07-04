@@ -1,0 +1,250 @@
+/* menu NOT logged in */
+/* general colour for entire page */
+.menu {
+  justify-content: center;
+  display: flex;
+}
+body {
+  background: #222694;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* for background or smth */
+#nav,
+#nav ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+
+/* general stats */
+#nav {
+  background-color: #b58ae5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* keeps them horizontal */
+#nav>* {
+  text-align: left;
+}
+
+/* animation fading */
+#nav a {
+  display: block;
+  text-decoration: none;
+  -moz-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  -ms-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  -o-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  -webkit-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  white-space: normal;
+}
+
+/* creates borders */
+#nav a {
+  color: #333333;
+  font-size: 1.3em;
+  line-height: 49px;
+  padding: 0 15px;
+  text-transform: uppercase;
+}
+
+/* for hover */
+#nav a:hover {
+  background-color: #F55856;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+/* change font and color for specific links */
+
+#nav .homecolour:hover,
+#nav .homecolour:focus {
+  background-color: rgb(185, 45, 155);
+  color: #FFFFFF;
+}
+
+#nav .moviescolour:hover,
+#nav .moviescolour:focus {
+  background-color: rgb(185, 45, 155);
+  color: #FFFFFF;
+}
+
+#nav .logincolour:hover,
+#nav .logincolour:focus {
+  background-color: rgb(185, 45, 155);
+  color: #FFFFFF;
+}
+
+#nav .registercolour:hover,
+#nav .registercolour:focus {
+  background-color: rgb(185, 45, 155);
+  color: #FFFFFF;
+}
+
+
+
+#navlogat .active,
+#nav .active {
+  background-color: rgb(185, 45, 155);
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* menu logged */
+/* for background or smth */
+.menulogat {
+  justify-content: center;
+  display: flex;
+}
+
+#navlogat {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  max-width: 800px;
+}
+
+/* general stats */
+#navlogat {
+  background-color: #b58ae5;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* keeps them horizontal */
+#navlogat>* {
+  text-align: left;
+}
+
+/* animation fading */
+#navlogat a {
+  display: block;
+  text-decoration: none;
+  -moz-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  -ms-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  -o-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  -webkit-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  white-space: normal;
+}
+
+/* creates borders */
+#navlogat a {
+  color: #333333;
+  display: block;
+  font-size: 1.3em;
+  line-height: 49px;
+  padding: 0 15px;
+  text-transform: uppercase;
+}
+
+/* for hover individual colours */
+#navlogat .homecolour:hover,
+#navlogat .homecolour:focus {
+  background-color: rgb(185, 45, 155);
+  color: #FFFFFF;
+}
+
+#navlogat .moviescolour:hover,
+#navlogat .moviescolour:focus {
+  background-color: rgb(185, 45, 155);
+  color: #FFFFFF;
+}
+
+#navlogat .listcolour:hover,
+#navlogat .listcolour:focus {
+  background-color: rgb(185, 45, 155);
+  color: #FFFFFF;
+}
+
+#navlogat .newsfeedcolour:hover,
+#navlogat .newsfeedcolour:focus {
+  background-color: rgb(185, 45, 155);
+  color: #FFFFFF;
+}
+
+#navlogat .profilecolour:hover,
+#navlogat .profilecolour:focus {
+  background-color: rgb(185, 45, 155);
+  color: #FFFFFF;
+}
+
+#navlogat .logoutcolour:hover,
+#navlogat .logoutcolour:focus {
+  background-color: rgb(185, 45, 155);
+  color: #FFFFFF;
+}
+
+#navlogat button {
+  display: block;
+  text-decoration: none;
+  -moz-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  -ms-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  -o-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  -webkit-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  white-space: normal;
+  color: #333333;
+  font-size: 1.3em;
+  line-height: 49px;
+  padding: 0 15px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+}
+
+#navlogat button:hover {
+  background-color: #df1e1e;
+  color: #FFFFFF;
+  cursor: pointer;
+
+}
+
+#navlogat .logoutcolour {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* in case I would care about menu responsiveness*/
+
+/* @media all and (max-width : 980px) {
+  #nav > li {
+      float: none;
+      border-bottom: 0;
+      margin-bottom: 0;
+  }
+  #nav ul.subs {
+      position: relative;
+      top: 0;
+  }
+  #nav li:hover ul.subs {
+      display: none;
+  }
+  #nav li #s1:target + ul.subs,
+  #nav li #s2:target + ul.subs {
+      display: block;
+  }
+
+  #nav ul.subs > li {
+      display: block;
+      width: auto;
+  }
+}     */

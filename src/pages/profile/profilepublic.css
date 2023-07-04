@@ -1,0 +1,31 @@
+.movieCardFavourite-profile {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+  }
+  
+  .posterImageFavourite-profile {
+    width: 100%;
+  }
+  
+  .movieTitleFavourite-profile {
+    position: absolute;
+    display: none;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 75%;
+    text-align: center;
+    padding: 5px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .posterWrapper-profile:hover .movieTitleFavourite-profile {
+    display: block;
+  }
+  
